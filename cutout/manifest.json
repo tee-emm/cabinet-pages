@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "model": {
+    "name": "birefnet-lite-fp16-webgpu.onnx",
+    "bytes": 115208327,
+    "sha256": "8cace1424778c221200d9577015be4504397814bb06542259ca769334319188f",
+    "chunks": [
+      {
+        "path": "model/part-00.bin",
+        "bytes": 47185920
+      },
+      {
+        "path": "model/part-01.bin",
+        "bytes": 47185920
+      },
+      {
+        "path": "model/part-02.bin",
+        "bytes": 20836487
+      }
+    ]
+  },
+  "runtime": {
+    "name": "ort-wasm-simd-threaded.asyncify.wasm",
+    "bytes": 28747738,
+    "sha256": "ca319e9539cd0f1e291cf56074760121eaf39650f5dbf84b6e52c07f4b2944ec",
+    "chunks": [
+      {
+        "path": "runtime/part-00.bin",
+        "bytes": 28747738
+      }
+    ]
+  }
+}
