@@ -1,11 +1,12 @@
 /* Cabinet app shell. Collection records and photos remain in IndexedDB, never in this cache. */
 const CACHE_PREFIX = 'cabinet-shell-';
-const CACHE = CACHE_PREFIX + "95702d16f8483cfe30abb4d6f87a0fc0f3cd6d27fa919164aded20c341b620e1";
+const CACHE = CACHE_PREFIX + "e05e385b40b4d997ababf7aa96027be4e0cbf38beb5ecce57b66df16c55b7209";
 const ASSETS = [
-  "./assets/archive.worker-PRMpn8Gp.js",
-  "./assets/index-B0Uwjip_.css",
-  "./assets/index-BuadL-rQ.js",
-  "./assets/media.worker-2HV6gCIH.js",
+  "./assets/App-C9Jc5m9j.js",
+  "./assets/archive.worker-6JBeWVrm.js",
+  "./assets/index-C2t-bPi5.js",
+  "./assets/index-DPOARjRy.css",
+  "./assets/media.worker-Cr1DaScB.js",
   "./icon.svg",
   "./index.html",
   "./manifest.webmanifest"
