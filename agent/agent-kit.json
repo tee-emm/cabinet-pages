@@ -1,14 +1,14 @@
 {
  "kind": "cabinet-agent-kit",
- "appVersion": "2.3.1",
+ "appVersion": "2.5.0",
  "skillZip": {
-  "name": "cabinet-agent-skill-2.3.1.zip",
+  "name": "cabinet-agent-skill-2.5.0.zip",
   "bytes": 76150,
   "sha256": "6ce0bdbb144a32f35fe81e7343f6d98110391535e843f6f0b6d834ab9578e0a2"
  },
  "prompt": {
   "name": "AGENT-PROMPT.md",
-  "sha256": "dff37ab7982475d06bfb6f2e12c0d5c24a1f72551c02d3ba4945c729a427fde7"
+  "sha256": "73943e8fa2559052cb0a2f99a9b42dc89ffa3b6d8fcef2e8c8148416be695a3f"
  },
  "skillMembers": [
   {
