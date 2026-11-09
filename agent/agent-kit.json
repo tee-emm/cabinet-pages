@@ -1,0 +1,85 @@
+{
+ "kind": "cabinet-agent-kit",
+ "appVersion": "2.3.0",
+ "skillZip": {
+  "name": "cabinet-agent-skill-2.3.0.zip",
+  "bytes": 76150,
+  "sha256": "6ce0bdbb144a32f35fe81e7343f6d98110391535e843f6f0b6d834ab9578e0a2"
+ },
+ "prompt": {
+  "name": "AGENT-PROMPT.md",
+  "sha256": "b580628d2da05d72e9e488a69b491e952de14928174111cd3060f653806eec70"
+ },
+ "skillMembers": [
+  {
+   "path": "agent-skill/references/currencies.json",
+   "bytes": 368,
+   "sha256": "1c1a11ce9c7fbbbf9f1c4b63c8b4d7c54aacd9a192d28c0762ed409532372b86"
+  },
+  {
+   "path": "agent-skill/references/limits.json",
+   "bytes": 1137,
+   "sha256": "1b6b9740d6f7cb71f4a621e3142360516fb2d2137c654f4a1860f0e62043e01d"
+  },
+  {
+   "path": "agent-skill/references/v1/inventory-item.schema.json",
+   "bytes": 2858,
+   "sha256": "c2b9be5dbace689f70bc489be168c787a487f840cf72d7ef035a3416841181d6"
+  },
+  {
+   "path": "agent-skill/references/v1/valuation-batch.schema.json",
+   "bytes": 6417,
+   "sha256": "714208d0c349454f7ac3d96e1a9fc0db78988770e89378ff2a6e985f65e25d31"
+  },
+  {
+   "path": "agent-skill/references/v1/valuation-results.schema.json",
+   "bytes": 11725,
+   "sha256": "705b181802ccfddae9b415094888c84e4d9987fd3f37de2e7a98691427cb2e8c"
+  },
+  {
+   "path": "agent-skill/references/v2/response-template.schema.json",
+   "bytes": 87007,
+   "sha256": "462fbc1ba4b6b2b4d23409ca53691a618f3aea2d79cb2ca6bd1b54f324457a50"
+  },
+  {
+   "path": "agent-skill/references/v2/valuation-batch.schema.json",
+   "bytes": 87000,
+   "sha256": "914e0ac56ebf440c277c6d9fd4a57a84fa2a99c629c0ab860fbce5d475f36ee5"
+  },
+  {
+   "path": "agent-skill/references/v2/valuation-results.schema.json",
+   "bytes": 87014,
+   "sha256": "f06e3fb59e77931cc100daff457a40164da62d5654e0add8b719e0c3aeca33b3"
+  },
+  {
+   "path": "agent-skill/references/v3/evidence-method.md",
+   "bytes": 5411,
+   "sha256": "eaa3f94493a6d78ad3fa44c14a306d04a9bbf5d6272669b86907116fb1be1a73"
+  },
+  {
+   "path": "agent-skill/references/v3/response-template.schema.json",
+   "bytes": 140381,
+   "sha256": "f62d352c8b1eb52810db6548768df78ab488181c60f9453d6fcf4e1e6b00f8db"
+  },
+  {
+   "path": "agent-skill/references/v3/valuation-batch.schema.json",
+   "bytes": 140374,
+   "sha256": "70fb50a9e98fb8e2aef6ef7101e9bdebe09ed06d9600a169a4f1859bb8685d85"
+  },
+  {
+   "path": "agent-skill/references/v3/valuation-results.schema.json",
+   "bytes": 140388,
+   "sha256": "07a7672884eea03f5b6c070604bbe0bd161dd638c6bdef375305f60f76cda362"
+  },
+  {
+   "path": "agent-skill/scripts/validate_results.py",
+   "bytes": 36446,
+   "sha256": "4462e1133f013776b8f8fb01129ee978c39e792cd6b2ee54e166865fd7a26cee"
+  },
+  {
+   "path": "agent-skill/SKILL.md",
+   "bytes": 17928,
+   "sha256": "34458de4a87a5731e07711da2243c0e64d43e157b0d0abbabe8604c1065e3e3c"
+  }
+ ]
+}
