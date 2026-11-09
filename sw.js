@@ -1,15 +1,15 @@
 /* Cabinet app shell. Collection records and photos remain in IndexedDB, never in this cache. */
 const CACHE_PREFIX = 'cabinet-shell-';
-const CACHE = CACHE_PREFIX + "7bc3a86499b3fe27669a556e73448879441ae547dabf286c269afd5c2ac1f58b";
+const CACHE = CACHE_PREFIX + "a377ccfff5c7df1b51fe9ce52ecfe20595fd3269f27aeee3275999c6deaa8c25";
 const ASSETS = [
   "./agent/AGENT-PROMPT.md",
   "./agent/SHA256SUMS",
   "./agent/agent-kit.json",
   "./agent/cabinet-agent-skill-2.3.0.zip",
-  "./assets/App-CgzvqArH.js",
+  "./assets/App-DchR8pPx.js",
   "./assets/archive.worker-6JBeWVrm.js",
-  "./assets/index-CSVXsxH8.js",
-  "./assets/index-DPOARjRy.css",
+  "./assets/index-9hcuHvRC.css",
+  "./assets/index-B_eWXeVe.js",
   "./assets/media.worker-Cr1DaScB.js",
   "./icon.svg",
   "./index.html",
