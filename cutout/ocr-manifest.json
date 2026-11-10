@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "det": {
+    "name": "PP-OCRv5_mobile_det.onnx",
+    "bytes": 4826518,
+    "sha256": "a431985659dc921974177a95adcfbb90fd9e51989a5e04d70d0b75f597b6e61d",
+    "chunks": [
+      {
+        "path": "ocr/det/part-00.bin",
+        "bytes": 4826518
+      }
+    ]
+  },
+  "rec": {
+    "name": "PP-OCRv5_mobile_rec.onnx",
+    "bytes": 16534782,
+    "sha256": "da72dc72ca4dc220df0dfde68c1dedc31c58d3e76a25871122e5056227d50092",
+    "chunks": [
+      {
+        "path": "ocr/rec/part-00.bin",
+        "bytes": 16534782
+      }
+    ]
+  },
+  "dict": {
+    "name": "PP-OCRv5_dict.json",
+    "bytes": 129163,
+    "sha256": "c9007c1e471102735d65ed5e6bf2c197f4c3b926f7005c61143ac9c37c25adce",
+    "chunks": [
+      {
+        "path": "ocr/dict/part-00.bin",
+        "bytes": 129163
+      }
+    ]
+  },
+  "runtime": {
+    "name": "ort-wasm-simd-threaded.asyncify.wasm",
+    "bytes": 28747738,
+    "sha256": "ca319e9539cd0f1e291cf56074760121eaf39650f5dbf84b6e52c07f4b2944ec",
+    "chunks": [
+      {
+        "path": "runtime/part-00.bin",
+        "bytes": 28747738
+      }
+    ]
+  },
+  "license": "Apache-2.0 (PaddleOCR PP-OCRv5); see PP-OCRv5.LICENSE.txt"
+}

@@ -1,19 +1,21 @@
 /* Cabinet app shell. Collection records and photos remain in IndexedDB, never in this cache. */
 const CACHE_PREFIX = 'cabinet-shell-';
-const CACHE = CACHE_PREFIX + "746403b8a22a58b8b1ab0f9094b549a4d39242ec58eef109e331c817c055ff54";
+const CACHE = CACHE_PREFIX + "72057f74b4905a755fdf48ff13a9a1c340a62550d1c16780dc4f3d1310e835fc";
 const ASSETS = [
   "./agent/AGENT-PROMPT.md",
   "./agent/SHA256SUMS",
   "./agent/agent-kit.json",
   "./agent/cabinet-agent-skill-2.6.0.zip",
-  "./assets/App-BB9m1wvV.js",
-  "./assets/archive.worker-D7MDO-zF.js",
+  "./assets/App-Cd3JY9Qo.js",
+  "./assets/archive.worker-C4KRD5TO.js",
   "./assets/cutout-cpu.worker-BGm8R-Jg.js",
   "./assets/cutout.worker-TxruYLzz.js",
-  "./assets/index--bbNbG79.js",
-  "./assets/index-CmV6DSVG.css",
+  "./assets/index-CyNf9wVC.css",
+  "./assets/index-DiAapJDL.js",
   "./assets/media.worker-VxbA1fKU.js",
   "./assets/portfolio.worker-Djm1kKv4.js",
+  "./assets/recording.worker-BYSy0u1e.js",
+  "./assets/screenshot-ocr.worker-c_mvqfK8.js",
   "./icon.svg",
   "./index.html",
   "./manifest.webmanifest"
