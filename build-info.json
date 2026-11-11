@@ -2,7 +2,7 @@
   "app": "Cabinet",
   "version": "2.6.0-fork.3",
   "upstreamVersion": "2.6.0",
-  "forkCommit": "314134f5977609e67c1cc11db1b577bf46b02a25",
-  "assetSha256": "9550a1c7755fd6c3efda408c8286e522baf925ea510feb08be575bc24913c911",
-  "assets": 21
+  "forkCommit": "8e181a8a130f5ebb6d0c492bcf06a0d1d53c3d3b",
+  "assetSha256": "d669651ee66b418a183190f31663d6dc34fe66d81eb310dc8c7e1d4b2d37f757",
+  "assets": 23
 }

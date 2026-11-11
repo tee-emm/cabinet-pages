@@ -1,25 +1,27 @@
 /* Cabinet app shell. Collection records and photos remain in IndexedDB, never in this cache. */
 const CACHE_PREFIX = 'cabinet-shell-';
-const CACHE = CACHE_PREFIX + "9550a1c7755fd6c3efda408c8286e522baf925ea510feb08be575bc24913c911";
+const CACHE = CACHE_PREFIX + "d669651ee66b418a183190f31663d6dc34fe66d81eb310dc8c7e1d4b2d37f757";
 const ASSETS = [
   "./agent/AGENT-PROMPT.md",
   "./agent/SHA256SUMS",
   "./agent/agent-kit.json",
   "./agent/cabinet-agent-skill-2.6.0-fork.3.zip",
-  "./assets/App-D9zjYxis.js",
-  "./assets/EdgeBenchPage-CLgjHK55.js",
+  "./assets/App-CyB90TA3.js",
+  "./assets/EdgeBenchPage-DapFQcXo.js",
   "./assets/archive.worker-Q4cuQXmZ.js",
   "./assets/cutout-cpu.worker-BGm8R-Jg.js",
-  "./assets/cutout.worker-BttcXVSf.js",
-  "./assets/edge-runtime-Bx4ObuWw.js",
-  "./assets/edge-vlm-77k_i-uQ.js",
+  "./assets/cutout.worker-CEJOACli.js",
+  "./assets/edge-model.worker-B6McHhB5.js",
+  "./assets/edge-runtime-CfRj2PVk.js",
+  "./assets/edge-vlm-BeEeBVR3.js",
+  "./assets/edge-worker-client-CZTbvW2i.js",
+  "./assets/index-DBC8Rssk.js",
   "./assets/index-OBvAaS7_.css",
-  "./assets/index-sk8BE96i.js",
   "./assets/media.worker-VxbA1fKU.js",
   "./assets/ort.webgpu.bundle.min-CXJZkqlB.js",
   "./assets/portfolio.worker-Djm1kKv4.js",
   "./assets/recording.worker-BYSy0u1e.js",
-  "./assets/screenshot-ocr.worker-Ck3FA7Oo.js",
+  "./assets/screenshot-ocr.worker-BRjpaa0T.js",
   "./icon.svg",
   "./index.html",
   "./manifest.webmanifest"

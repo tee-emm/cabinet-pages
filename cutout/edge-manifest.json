@@ -21,24 +21,35 @@
       "files": {
         "model": {
           "name": "vision_model_fp16.onnx",
-          "bytes": 186142673,
-          "sha256": "7287a8e9cbf4f2eedd66e8dc5cf584be03108f4e4a24331879ac6ef7ac7c878f",
+          "bytes": 389842,
+          "sha256": "cd980d7b734a9d770ab908210ccfb46b756886d7d63df079d6a854bd529f3e06",
           "chunks": [
             {
               "path": "edge/siglip-base-patch16-224/model/part-00.bin",
+              "bytes": 389842
+            }
+          ]
+        },
+        "model.data": {
+          "name": "vision_model_fp16.onnx.data",
+          "bytes": 185768448,
+          "sha256": "dc6041f30293a51690bc074139b9d41836c09c15f277f92725bb119f04ab4570",
+          "chunks": [
+            {
+              "path": "edge/siglip-base-patch16-224/model-data/part-00.bin",
               "bytes": 47185920
             },
             {
-              "path": "edge/siglip-base-patch16-224/model/part-01.bin",
+              "path": "edge/siglip-base-patch16-224/model-data/part-01.bin",
               "bytes": 47185920
             },
             {
-              "path": "edge/siglip-base-patch16-224/model/part-02.bin",
+              "path": "edge/siglip-base-patch16-224/model-data/part-02.bin",
               "bytes": 47185920
             },
             {
-              "path": "edge/siglip-base-patch16-224/model/part-03.bin",
-              "bytes": 44584913
+              "path": "edge/siglip-base-patch16-224/model-data/part-03.bin",
+              "bytes": 44210688
             }
           ]
         }
@@ -53,46 +64,79 @@
       "files": {
         "vision": {
           "name": "vision_encoder_q4.onnx",
-          "bytes": 63784987,
-          "sha256": "95814e6629ec465e7cf98a44edcee67abc06d41faa0d1acc410cf8a956cab488",
+          "bytes": 303955,
+          "sha256": "014dc031bcb55c7fffc443ac08542daa5aa7fa1987e606abf2daa5111ae40ac7",
           "chunks": [
             {
               "path": "edge/smolvlm-256M-instruct-q4/vision/part-00.bin",
+              "bytes": 303955
+            }
+          ]
+        },
+        "vision.data": {
+          "name": "vision_encoder_q4.onnx.data",
+          "bytes": 63501312,
+          "sha256": "a354006fb2cc43316043f94665c32f816f70cb32e6932dca8d14fd7426e8bda6",
+          "chunks": [
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/vision-data/part-00.bin",
               "bytes": 47185920
             },
             {
-              "path": "edge/smolvlm-256M-instruct-q4/vision/part-01.bin",
-              "bytes": 16599067
+              "path": "edge/smolvlm-256M-instruct-q4/vision-data/part-01.bin",
+              "bytes": 16315392
             }
           ]
         },
         "embed": {
           "name": "embed_tokens_q4f16.onnx",
-          "bytes": 56770965,
-          "sha256": "d810e0849eda8128be2d9cf1a2be9ca0bd8e5bfbe5bf972f60ea8e2a566f6bfe",
+          "bytes": 472,
+          "sha256": "2a75696e4569212c988024563183613c705aa06a54cb96704d4fb4d78eb5b487",
           "chunks": [
             {
               "path": "edge/smolvlm-256M-instruct-q4/embed/part-00.bin",
+              "bytes": 472
+            }
+          ]
+        },
+        "embed.data": {
+          "name": "embed_tokens_q4f16.onnx.data",
+          "bytes": 56770560,
+          "sha256": "ba0034f0607aa9547f22db09a5235c4caf5523ca68cd15368c2950db8c515447",
+          "chunks": [
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/embed-data/part-00.bin",
               "bytes": 47185920
             },
             {
-              "path": "edge/smolvlm-256M-instruct-q4/embed/part-01.bin",
-              "bytes": 9585045
+              "path": "edge/smolvlm-256M-instruct-q4/embed-data/part-01.bin",
+              "bytes": 9584640
             }
           ]
         },
         "decoder": {
           "name": "decoder_model_merged_q4.onnx",
-          "bytes": 86562901,
-          "sha256": "e3fd81130e30715580cf148398e48e2925b6219bff75e17d2a77add35a363f65",
+          "bytes": 268659,
+          "sha256": "9a4a8fae4d2af908c112c6f9dc64cba29469458b6f615df4bb7e1bd80e29ef63",
           "chunks": [
             {
               "path": "edge/smolvlm-256M-instruct-q4/decoder/part-00.bin",
+              "bytes": 268659
+            }
+          ]
+        },
+        "decoder.data": {
+          "name": "decoder_model_merged_q4.onnx.data",
+          "bytes": 86333696,
+          "sha256": "08824a1a17dd7f32875914e853b637730169fa9b4f1ff17cee9f04c6517270a6",
+          "chunks": [
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/decoder-data/part-00.bin",
               "bytes": 47185920
             },
             {
-              "path": "edge/smolvlm-256M-instruct-q4/decoder/part-01.bin",
-              "bytes": 39376981
+              "path": "edge/smolvlm-256M-instruct-q4/decoder-data/part-01.bin",
+              "bytes": 39147776
             }
           ]
         },
