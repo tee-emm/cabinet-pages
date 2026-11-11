@@ -1,18 +1,22 @@
 /* Cabinet app shell. Collection records and photos remain in IndexedDB, never in this cache. */
 const CACHE_PREFIX = 'cabinet-shell-';
-const CACHE = CACHE_PREFIX + "72057f74b4905a755fdf48ff13a9a1c340a62550d1c16780dc4f3d1310e835fc";
+const CACHE = CACHE_PREFIX + "12d1acf4a0a55036287eb7f2739d2bb2703d53d9e57f4a4274af0e543604ed94";
 const ASSETS = [
   "./agent/AGENT-PROMPT.md",
   "./agent/SHA256SUMS",
   "./agent/agent-kit.json",
   "./agent/cabinet-agent-skill-2.6.0.zip",
-  "./assets/App-Cd3JY9Qo.js",
-  "./assets/archive.worker-C4KRD5TO.js",
+  "./assets/App-B2WwwwGh.js",
+  "./assets/EdgeBenchPage-l_rHQFkL.js",
+  "./assets/archive.worker-U_WepaKI.js",
   "./assets/cutout-cpu.worker-BGm8R-Jg.js",
   "./assets/cutout.worker-TxruYLzz.js",
-  "./assets/index-CyNf9wVC.css",
-  "./assets/index-DiAapJDL.js",
+  "./assets/edge-runtime-BQeBAi2h.js",
+  "./assets/edge-vlm-C5XLYfR8.js",
+  "./assets/index-DYr7xnQy.js",
+  "./assets/index-OBvAaS7_.css",
   "./assets/media.worker-VxbA1fKU.js",
+  "./assets/ort.webgpu.bundle.min-CXJZkqlB.js",
   "./assets/portfolio.worker-Djm1kKv4.js",
   "./assets/recording.worker-BYSy0u1e.js",
   "./assets/screenshot-ocr.worker-c_mvqfK8.js",

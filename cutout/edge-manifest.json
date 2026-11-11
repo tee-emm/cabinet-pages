@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "runtime": {
+    "name": "ort-wasm-simd-threaded.asyncify.wasm",
+    "bytes": 28747738,
+    "sha256": "ca319e9539cd0f1e291cf56074760121eaf39650f5dbf84b6e52c07f4b2944ec",
+    "chunks": [
+      {
+        "path": "runtime/part-00.bin",
+        "bytes": 28747738
+      }
+    ]
+  },
+  "models": [
+    {
+      "id": "siglip-base-patch16-224",
+      "job": "embedding",
+      "label": "SigLIP base patch16-224 vision (fp16)",
+      "licence": "Apache-2.0",
+      "card": "https://huggingface.co/google/siglip-base-patch16-224",
+      "files": {
+        "model": {
+          "name": "vision_model_fp16.onnx",
+          "bytes": 186142673,
+          "sha256": "7287a8e9cbf4f2eedd66e8dc5cf584be03108f4e4a24331879ac6ef7ac7c878f",
+          "chunks": [
+            {
+              "path": "edge/siglip-base-patch16-224/model/part-00.bin",
+              "bytes": 47185920
+            },
+            {
+              "path": "edge/siglip-base-patch16-224/model/part-01.bin",
+              "bytes": 47185920
+            },
+            {
+              "path": "edge/siglip-base-patch16-224/model/part-02.bin",
+              "bytes": 47185920
+            },
+            {
+              "path": "edge/siglip-base-patch16-224/model/part-03.bin",
+              "bytes": 44584913
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "smolvlm-256M-instruct-q4",
+      "job": "vlm",
+      "label": "SmolVLM-256M-Instruct (q4 vision+decoder, fp16 embed)",
+      "licence": "Apache-2.0",
+      "card": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+      "files": {
+        "vision": {
+          "name": "vision_encoder_q4.onnx",
+          "bytes": 63784987,
+          "sha256": "95814e6629ec465e7cf98a44edcee67abc06d41faa0d1acc410cf8a956cab488",
+          "chunks": [
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/vision/part-00.bin",
+              "bytes": 47185920
+            },
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/vision/part-01.bin",
+              "bytes": 16599067
+            }
+          ]
+        },
+        "embed": {
+          "name": "embed_tokens_q4f16.onnx",
+          "bytes": 56770965,
+          "sha256": "d810e0849eda8128be2d9cf1a2be9ca0bd8e5bfbe5bf972f60ea8e2a566f6bfe",
+          "chunks": [
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/embed/part-00.bin",
+              "bytes": 47185920
+            },
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/embed/part-01.bin",
+              "bytes": 9585045
+            }
+          ]
+        },
+        "decoder": {
+          "name": "decoder_model_merged_q4.onnx",
+          "bytes": 86562901,
+          "sha256": "e3fd81130e30715580cf148398e48e2925b6219bff75e17d2a77add35a363f65",
+          "chunks": [
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/decoder/part-00.bin",
+              "bytes": 47185920
+            },
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/decoder/part-01.bin",
+              "bytes": 39376981
+            }
+          ]
+        },
+        "tokenizer": {
+          "name": "tokenizer.json",
+          "bytes": 3548256,
+          "sha256": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a",
+          "chunks": [
+            {
+              "path": "edge/smolvlm-256M-instruct-q4/tokenizer/part-00.bin",
+              "bytes": 3548256
+            }
+          ]
+        }
+      },
+      "settings": {
+        "imageTokenId": 49190,
+        "eosTokenId": 49279,
+        "imageSeqLen": 64,
+        "numKvHeads": 3,
+        "headDim": 64,
+        "numLayers": 30,
+        "longestEdge": 1024,
+        "tile": 512,
+        "maxNewTokens": 96
+      }
+    }
+  ]
+}
