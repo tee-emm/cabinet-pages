@@ -1,6 +1,8 @@
 {
   "app": "Cabinet",
-  "version": "2.6.0",
-  "assetSha256": "12d1acf4a0a55036287eb7f2739d2bb2703d53d9e57f4a4274af0e543604ed94",
+  "version": "2.6.0-fork.3",
+  "upstreamVersion": "2.6.0",
+  "forkCommit": "314134f5977609e67c1cc11db1b577bf46b02a25",
+  "assetSha256": "9550a1c7755fd6c3efda408c8286e522baf925ea510feb08be575bc24913c911",
   "assets": 21
 }
